@@ -1,0 +1,271 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-position: center center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Start writing your code here */
+
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-position: top center;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Start writing your code here */
+
+/* app */
+
+.container {
+  padding: 32px 80px 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 32px 24px 16px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  color: #484848;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #484848;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 300;
+  border-top: 1px solid #cccccc;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.title-border {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 16px;
+  margin-bottom: 42px;
+}
+
+/* hero secion */
+.hero {
+  padding: 120px 80px;
+}
+
+.hero-background {
+  color: #484848;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1571501233093-3e83accc456b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+}
+  
+
+.hero-title {
+  margin-top: 0 0 32px;
+  font-size: 46px;
+  color: white;
+  width: 700px;
+}
+
+.hero-button-container {
+  display: inline-block;
+  width: 300px;
+  margin-right: 24px;
+}
+
+.label {
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 40px 80px;
+  }
+  .hero-title {
+    width: 100%;
+  }
+}
+
+/* button */
+
+.button {
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px 22px;
+  font-weight: 500;
+}
+
+.hero-button {
+  width: 300px;
+}
+
+.button-white {
+  background-color: #ffffff;
+  border-color: white;
+  color: #484848;
+}
+
+.button-white-outline {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: white;
+}
+
+.button-green {
+  background-color: #008489;
+  border-color: #008489;
+  color: white;
+}
+
+/* card */
+
+.card {
+  width: 33%;
+  padding: 0 8px;
+  margin-right: -4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-image {
+  height: 200px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.card-title {
+  color: #5d5d5d;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-footer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.info-card-image {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+
+.image {
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1571501679680-de32f1e7aad4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1571637928003-0ed17e03786f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1570554882031-4546e3e3bed5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1570520482746-af035285c22b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1569938298692-3547607c467a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60');
+}
+
+/* start writing your code here */
+@media (max-width: 768px) {
+  .product-item {
+    max-width: 25%;
+  }
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.product-item {
+  padding: 0 8px;
+  margin: 0 0 48px;
+  flex-grow: 1;
+  flex-basis: 340px;
+}
+
+.Head {
+  display: flex;
+  justify-content: space-between;
+}
+.Home {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.M {
+  padding: 8px;
+}
